@@ -1,0 +1,68 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+
+1. What is the title of your program?
+    Student Expense Tracker
+
+
+2. What real-world problem will your program address or help to solve?  
+    Many students have difficulty keeping track of their daily expenses 
+    and understanding how much money they spend over time. This program 
+    will help students record, store, and review their expenses so they
+    can manage their finances more effectively and make better budgetting 
+    decisions.
+
+
+3. What will you learn from developing this program?
+    I will learn how to design a well-organized Python Program using 
+    multiple functions, work with files to store and retrieve data, and 
+    apply good testing practices using pytest. I will also improve my 
+    problem-solving skills by breaking a real-world problem into smaller, 
+    manageable tasks.
+
+
+4. What Python modules will your program use?
+    • datetime - to record and manage expense dates
+    • csv - or built-in file handling - to store and read expense data
+    • pytest - to test program functions
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+
+5. List the names of functions you will need?
+    • load_expenses(filename) - reads expenses from a file and returns them
+    • save_expenses(filename, expenses) - writes expenses to a file
+    • add_expense(expenses, ampount, category, description, date) - adds a new expense
+    • calaculate_total(expenses) - returns the total amount spent
+    • calculate_total_by_category(expenses, category) - returns total for a category
+    • get_user_menu_choice() - gets the user's menu selection
+    • display_expenses(expenses) - displays expenses to the user
+    • main() - controls the overall program flow
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+    • test_calculate_total()
+    • test_calculate_total_by_category()
+    • test_add_expense()
+
+

@@ -58,3 +58,13 @@ def display_expenses(expenses):
         )
 
 
+def get_user_menu_choice():
+    print("\nStudent Expense Tracker")
+    print("1. Add Expense")
+    print("2. View Expenses")
+    print("3. View Total Expenses")
+    print("4. View Total by Category")
+    print("5. Exit")
+    return input("Choose an option: ")
+
+

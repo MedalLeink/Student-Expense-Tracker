@@ -16,3 +16,12 @@ def load_expenses(filename):
         pass
     return expenses
 
+
+def save_expenses(filename, expenses):
+    with open(filename, "w", newline="") as file:
+        fieldnames = ["date", "category", "description", "amount"]
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(expenses)
+
+

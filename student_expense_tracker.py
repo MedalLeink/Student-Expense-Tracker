@@ -36,3 +36,7 @@ def add_expense(expenses, amount, category, description, date):
     return expenses
 
 
+def calculate_total(expenses):
+    return sum(expense["amount"] for expense in expenses)
+
+

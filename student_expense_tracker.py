@@ -40,3 +40,9 @@ def calculate_total(expenses):
     return sum(expense["amount"] for expense in expenses)
 
 
+def calculate_total_by_category(expenses, category):
+    return sum(
+        expense["amount"] for expense in expenses if expense["category"] == category
+    )
+
+

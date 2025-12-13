@@ -84,4 +84,11 @@ def main():
             save_expenses(FILENAME, expenses)
             print("Expense added successfully.")
 
- 
+        elif choice == "2":
+            display_expenses(expenses)
+
+        elif choice == "3":
+            total = calculate_total(expenses)
+            print(f"Total expenses: ₦{total:.2f}")
+
+

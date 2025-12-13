@@ -25,3 +25,14 @@ def save_expenses(filename, expenses):
         writer.writerows(expenses)
 
 
+def add_expense(expenses, amount, category, description, date):
+    expense = {
+        "date": date,
+        "category": category,
+        "description": description,
+        "amount": amount,
+    }
+    expenses.append(expense)
+    return expenses
+
+

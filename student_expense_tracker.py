@@ -68,3 +68,9 @@ def get_user_menu_choice():
     return input("Choose an option: ")
 
 
+def main():
+    expenses = load_expenses(FILENAME)
+
+    while True:
+        choice = get_user_menu_choice()
+

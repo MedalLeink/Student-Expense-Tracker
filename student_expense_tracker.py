@@ -80,3 +80,8 @@ def main():
             description = input("Enter description: ")
             date = datetime.now().strftime("%Y-%m-%d")
 
+            expenses = add_expense(expenses, amount, category, description, date)
+            save_expenses(FILENAME, expenses)
+            print("Expense added successfully.")
+
+ 

@@ -46,3 +46,15 @@ def calculate_total_by_category(expenses, category):
     )
 
 
+def display_expenses(expenses):
+    if not expenses:
+        print("No expenses recorded.")
+        return
+
+    for expense in expenses:
+        print(
+            f"{expense['date']} | {expense['category']} | "
+            f"{expense['description']} | ₦{expense['amount']:.2f}"
+        )
+
+

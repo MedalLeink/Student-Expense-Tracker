@@ -91,4 +91,17 @@ def main():
             total = calculate_total(expenses)
             print(f"Total expenses: ₦{total:.2f}")
 
+        elif choice == "4":
+            category = input("Enter category: ")
+            total = calculate_total_by_category(expenses, category)
+            print(f"Total for {category}: ₦{total:.2f}")
+
+        elif choice == "5":
+            print("Goodbye!")
+            break
+
+        else:
+            print("Invalid choice. Try again.")
+
+
 

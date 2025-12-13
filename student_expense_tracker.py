@@ -74,3 +74,9 @@ def main():
     while True:
         choice = get_user_menu_choice()
 
+        if choice == "1":
+            amount = float(input("Enter amount: "))
+            category = input("Enter category: ")
+            description = input("Enter description: ")
+            date = datetime.now().strftime("%Y-%m-%d")
+

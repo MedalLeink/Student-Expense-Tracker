@@ -19,3 +19,11 @@ def test_calculate_total():
     assert calculate_total(expenses) == 200
 
 
+def test_calculate_total_by_category():
+    expenses = [
+        {"amount": 50, "category": "Food"},
+        {"amount": 30, "category": "Transport"},
+        {"amount": 20, "category": "Food"},
+    ]
+
+

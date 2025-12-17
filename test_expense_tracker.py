@@ -30,4 +30,8 @@ def test_calculate_total_by_category():
     assert calculate_total_by_category(expenses, "Transport") == 30
 
 
+def test_add_expense():
+    expenses = []
+    add_expense(expenses, 40, "Snacks", "Chips", "2025-12-08")
 
+    

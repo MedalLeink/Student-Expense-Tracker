@@ -26,4 +26,8 @@ def test_calculate_total_by_category():
         {"amount": 20, "category": "Food"},
     ]
 
+    assert calculate_total_by_category(expenses, "Food") == 70
+    assert calculate_total_by_category(expenses, "Transport") == 30
+
+
 

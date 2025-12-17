@@ -34,4 +34,5 @@ def test_add_expense():
     expenses = []
     add_expense(expenses, 40, "Snacks", "Chips", "2025-12-08")
 
-    
+    assert len(expenses) == 1
+    assert expenses[0]["amount"] == 40

@@ -19,7 +19,7 @@ doing any of the following:
 
             Time Spent
    Date       (hours)   Description of Work
-----------  ----------  -------------------------
+----------  ----------  --------------------------
 2025-12-02      2.0     Reviewed project requirements and proposal, planned features for the Student 
                         Expense Tracker and also discussing my project with my teacher, tutor, or fellow students
 2025-12-03      3.0     Researched how to use CSV files and datetime module for storing expense data

@@ -5,7 +5,6 @@ from student_expense_tracker import (
 )
 
 
-
 def test_calculate_total():
     expenses = [
         {"amount": 100},
